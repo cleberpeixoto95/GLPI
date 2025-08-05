@@ -26,9 +26,6 @@ MYSQL_PASSWORD=senha123
 TIMEZONE=America/Sao_Paulo
 ```
 
-> ⚠️ **Importante:** Nunca envie este arquivo para o GitHub. Ele contém credenciais sensíveis.  
-> Este repositório já está configurado com `.gitignore` para ignorar `.env`.
-
 ### 3. Suba os containers
 
 ```bash
@@ -65,20 +62,6 @@ http://localhost
 
 - `db_data`: armazena os dados do banco MariaDB
 - `glpi_data`: armazena os arquivos persistentes do GLPI
-
----
-
-## 🧽 Parar e remover os containers
-
-```bash
-docker-compose down
-```
-
-Para remover volumes também:
-
-```bash
-docker-compose down -v
-```
 
 ---
 
